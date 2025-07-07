@@ -5,6 +5,23 @@ Using existing datasets of recopies such as [this](https://www.kaggle.com/datase
 
 Feel free to use other datasets, but the automated script uses the previously mentioned. 
 
+## Usage
+> Once installed, use ```datasette recipes.db``` to host without re-installing. 
+
+1. Grab the installation script
+
+    ```wget https://raw.githubusercontent.com/HeadphoneDent/Recipes/refs/heads/main/setup.sh'```
+
+2. Add execute permissions
+
+   ```chmod +x setup.sh```
+
+3. Run the script
+
+    ```./setup.sh```
+
+Datasette is now being hosted at http://127.0.0.1:8001
+
 ## Requirements
 - pipx
 
